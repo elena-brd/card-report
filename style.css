@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #110723;
+    color: #fff;
+    line-height: 1.6;
+}
+
+#card .escape i {
+    background: #2b1f43;
+    padding: 17px 20px;
+    font-weight: 300;
+    text-align: end;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 37.35rem;
+}
+
+#card .escape i:hover {
+    opacity: 0.8;
+}
+
+#card .card-content {
+    position: relative;
+    background: #1b1133;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 650px;
+    height: 100%;
+    border-radius: 5px;
+    padding: 4rem;
+}
+
+#card .main-title h2 {
+    font-weight: 500;
+}
+
+#card .main-title span {
+    font-size: 0.8rem;
+    color: #f4f4f4;
+}
+
+#card .main-title {
+    margin-bottom: 1.5rem;
+}
+
+#card .check-content div {
+    margin-bottom: 0.8rem;
+}
+
+#card .check-content label {
+    font-weight: 400;
+}
+
+#card .check-content p span {
+    font-size: 0.7rem;
+    color: #a2a2a2;
+    font-weight: 300;
+    margin-left: 1rem;
+}
+
+#card input[type="checkbox"] {
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    background-color: transparent;
+    border: 1px solid #6d6d6d;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+#card input[type='checkbox']:checked {
+    background-color: #582f93;
+}
+
+#card .comment-area {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+#card .comment-area label {
+    font-size: 0.8rem;
+    color: #f4f4f4;
+    margin-bottom: 0.5rem;
+}
+
+#card textarea {
+    background: #110723;
+    border: none;
+    color: #f4f4f4;
+    padding: 1rem;
+}
+
+#card button {
+    cursor: pointer;
+    background: #ee932b;
+    color: #110723;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.7rem 1.8rem;
+    transition: all 0.3s ease-in;
+}
+
+#card button:hover {
+    background: #582f93;
+    color: #fff;
+}
